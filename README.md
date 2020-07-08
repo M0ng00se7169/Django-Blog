@@ -1,4 +1,4 @@
-# Simple Blog  [![Status](https://img.shields.io/badge/status-work--in--progress-yellow)](https://github.com/M0ng00se7169/Django-Blog)
+# Simple Blog  [![Status](https://img.shields.io/badge/status-finished-brightgreen)](https://github.com/M0ng00se7169/Django-Blog)
 
 Simple Django Blog Application with Bootstrap on the front-end
 
@@ -27,7 +27,7 @@ Simple Django Blog Application with Bootstrap on the front-end
 
 
 ### DEPLOYMENT
-    In process...
+https://django-livejournal-clone.herokuapp.com/
 
 
 <br/><br/>
