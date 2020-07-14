@@ -12,18 +12,20 @@ Simple Django Blog Application with Bootstrap on the front-end
 
 2. Install packages from requirements.txt
 
-3. Run the app:
+3. Make all migrations from the DB:
+```bash
+    python manage.py makemigrations
+    python manage.py migrate
+```
+
+4. Run the app:
 ```bash
     python manage.py runserver
 ```
 
-4. For Password recovery, activate this app in your Gmail settings.
+5. For Password recovery, activate this app in your Gmail settings.
 
-5. Enjoy 😉
-
-
-### TIPS
-- If you don't see directories `node_modules` after downloading it, or you have some other problems, try to disable `Windows Defender`, download directory again and repeat steps
+6. Enjoy 😉
 
 
 ### DEPLOYMENT
