@@ -28,8 +28,6 @@ Simple Django Blog Application with Bootstrap on the front-end
 6. Enjoy 😉
 
 
-### DEPLOYMENT
-https://django-livejournal-clone.herokuapp.com/
 
 
 <br/><br/>
