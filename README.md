@@ -20,9 +20,6 @@ Simple Django Blog Application with Bootstrap on the front-end
     uv pip install -r pyproject.toml
 ```
 
-3.  Create superuser and 1 usual user
-
-
 3.  Run the app:
 ```bash
     uv run manage.py runserver
