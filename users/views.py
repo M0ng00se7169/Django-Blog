@@ -1,6 +1,9 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.views import LogoutView
+from django.utils.decorators import method_decorator
+from django.views.decorators.csrf import csrf_protect
 from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
 
 
@@ -36,3 +39,9 @@ def profile(request):
         'p_form': profile_form
     }
     return render(request, 'users/profile.html', context)
+
+
+@method_decorator(csrf_protect, name='dispatch')
+class CustomLogoutView(LogoutView):
+    def post(self, request, *args, **kwargs):
+        return self.get(request, *args, **kwargs)
